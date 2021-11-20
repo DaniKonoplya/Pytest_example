@@ -1,7 +1,6 @@
 from datetime import timezone, datetime
 import pytz
 import sys
-#comment
 
 class Account(object):
 
