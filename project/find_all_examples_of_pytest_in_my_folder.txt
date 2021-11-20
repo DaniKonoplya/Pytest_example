@@ -1,0 +1,10 @@
+# Use fish shell
+
+# Find all examples in folder recursively and open all relevant files in vim editor. 
+
+                                                              vim (for file in $files[2..1000]
+                                                              set p (cat $file | sed -n '/pytest/ p')
+                                                              if test  -n "$p"
+                                                              echo $file
+                                                              end
+                                                              end | sed -n '/env/! p')
